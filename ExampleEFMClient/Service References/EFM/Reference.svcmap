@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6458cd23-ca8e-4481-b702-a823e44c8b96" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://certify.texfile.com/EFM/EFMUserService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EFMUserService53.xsd" MetadataType="Schema" ID="f98cc328-8e59-4748-aae0-e13b2072e59b" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EFMUserService531.xsd" MetadataType="Schema" ID="295bfcdb-26f8-4d52-8a18-790f1e27758d" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd3" />
+    <MetadataFile FileName="EFMUserService532.xsd" MetadataType="Schema" ID="1f0a3ca9-31f2-4422-af32-8a2f1551a1c4" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd16" />
+    <MetadataFile FileName="EFMUserService533.xsd" MetadataType="Schema" ID="5b058d36-8c4d-4412-abad-b33480d9d614" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd27" />
+    <MetadataFile FileName="EFMUserService534.xsd" MetadataType="Schema" ID="5316f394-79ea-45d7-b680-58855e7d87ae" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd4" />
+    <MetadataFile FileName="EFMUserService535.xsd" MetadataType="Schema" ID="b478f6bc-4bc0-4d6a-a0fa-2ec0cd2a9d87" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd19" />
+    <MetadataFile FileName="EFMUserService536.xsd" MetadataType="Schema" ID="965bbbec-74df-4143-bddc-31a2f389ff64" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd39" />
+    <MetadataFile FileName="EFMUserService537.xsd" MetadataType="Schema" ID="954a7dce-ec68-4337-b25f-1e03391742ef" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd5" />
+    <MetadataFile FileName="EFMUserService538.xsd" MetadataType="Schema" ID="6daa8ebf-b8b3-4cbc-8e1f-ced4f670b4d1" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd47" />
+    <MetadataFile FileName="EFMUserService539.xsd" MetadataType="Schema" ID="d9ddba93-d776-43f7-a6ce-c685bb4e9615" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd10" />
+    <MetadataFile FileName="EFMUserService5310.xsd" MetadataType="Schema" ID="95fa7419-627c-4e5f-9fa6-40bf21bb2553" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd7" />
+    <MetadataFile FileName="EFMUserService5311.xsd" MetadataType="Schema" ID="12109421-572f-4b8e-866d-fa164d8c9732" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd30" />
+    <MetadataFile FileName="EFMUserService5312.xsd" MetadataType="Schema" ID="c9df0cf9-dec6-4798-8a13-0cd4d9c1be42" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd17" />
+    <MetadataFile FileName="EFMUserService5313.xsd" MetadataType="Schema" ID="0b4eb3a4-08ef-439d-a757-f0e634025bea" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd20" />
+    <MetadataFile FileName="EFMUserService5314.xsd" MetadataType="Schema" ID="6cabd079-f301-4745-aa08-956e7a7792c0" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd49" />
+    <MetadataFile FileName="EFMUserService5315.xsd" MetadataType="Schema" ID="bbc243b8-194f-4d6c-9b36-c6af0779c3c3" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd9" />
+    <MetadataFile FileName="EFMUserService5316.xsd" MetadataType="Schema" ID="e1bd3a9d-68b5-4efd-a85a-170214334b80" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd45" />
+    <MetadataFile FileName="EFMUserService5317.xsd" MetadataType="Schema" ID="1a3ad624-13fb-44bf-b11e-80f12bbc4921" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd8" />
+    <MetadataFile FileName="EFMUserService5318.xsd" MetadataType="Schema" ID="8925797b-5479-438d-bda2-e66762e40a5d" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd40" />
+    <MetadataFile FileName="EFMUserService5319.xsd" MetadataType="Schema" ID="874aebd7-b7c4-4a72-b399-d0151471b0d3" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd11" />
+    <MetadataFile FileName="EFMUserService5320.xsd" MetadataType="Schema" ID="b5076b52-6e8c-4566-930d-ee72e1a99f82" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd31" />
+    <MetadataFile FileName="EFMUserService5321.xsd" MetadataType="Schema" ID="e6f6baf9-bdbd-4f83-8906-fe65f446fdd0" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd21" />
+    <MetadataFile FileName="EFMUserService5322.xsd" MetadataType="Schema" ID="6907562c-84d7-4aa3-80e0-e35e63197523" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd34" />
+    <MetadataFile FileName="EFMUserService5323.xsd" MetadataType="Schema" ID="3d39db15-dd60-4c46-b5ae-540b3f58c5f5" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd24" />
+    <MetadataFile FileName="EFMUserService5324.xsd" MetadataType="Schema" ID="33395790-8d0e-4989-9dd0-58c7992688f6" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd14" />
+    <MetadataFile FileName="EFMUserService5325.xsd" MetadataType="Schema" ID="0bbd6b7a-f9c6-4a40-9397-4565931fb6b1" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd51" />
+    <MetadataFile FileName="EFMUserService5326.xsd" MetadataType="Schema" ID="4c4648bd-3133-4bcd-aafd-e919ca79dea7" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd48" />
+    <MetadataFile FileName="EFMUserService5327.xsd" MetadataType="Schema" ID="8fad6684-da29-47a4-b273-5460937e7ec9" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd41" />
+    <MetadataFile FileName="EFMUserService5328.xsd" MetadataType="Schema" ID="72ba26e6-805e-4dda-9660-ff647187a49e" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd12" />
+    <MetadataFile FileName="EfmUserService1.wsdl" MetadataType="Wsdl" ID="e32c3664-7c0c-4055-9f33-565cd9d46702" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?wsdl" />
+    <MetadataFile FileName="EFMUserService5329.xsd" MetadataType="Schema" ID="e41ab456-1eb6-499d-a452-d3d786980002" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd50" />
+    <MetadataFile FileName="EFMUserService5330.xsd" MetadataType="Schema" ID="08888368-4824-4ba7-a289-1946acb49cc7" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd32" />
+    <MetadataFile FileName="EFMUserService5331.xsd" MetadataType="Schema" ID="d2ef241e-884e-4660-a072-e1a6deecd2fa" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd22" />
+    <MetadataFile FileName="EFMUserService5332.xsd" MetadataType="Schema" ID="66933e73-69d4-4c94-be44-23f4452bd857" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd37" />
+    <MetadataFile FileName="EFMUserService5333.xsd" MetadataType="Schema" ID="c2bde8fc-ccdc-4314-a7fc-c2cfdbf81c46" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd23" />
+    <MetadataFile FileName="EFMUserService1.disco" MetadataType="Disco" ID="635fd1c4-76fa-4cac-9351-fed898407f26" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?disco" />
+    <MetadataFile FileName="EFMUserService5334.xsd" MetadataType="Schema" ID="fe4cd23b-5bc5-4c56-9dd3-0fa722fe9249" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd25" />
+    <MetadataFile FileName="EFMUserService5335.xsd" MetadataType="Schema" ID="b34a146c-cff6-4c10-8bd9-56cf0d48f983" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd35" />
+    <MetadataFile FileName="EFMUserService5336.xsd" MetadataType="Schema" ID="948f9bdb-37f1-4293-a3e5-d5f790ea33cb" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd52" />
+    <MetadataFile FileName="EFMUserService5337.xsd" MetadataType="Schema" ID="b85a65a3-9fb6-4ef6-96e9-f290c4c2d1fd" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd28" />
+    <MetadataFile FileName="EFMUserService5338.xsd" MetadataType="Schema" ID="4f8dfeb5-69a5-415f-90b9-145be478cdea" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd42" />
+    <MetadataFile FileName="EFMUserService5339.xsd" MetadataType="Schema" ID="d246c34a-f6c0-450c-8b61-c4dad8db1d89" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd13" />
+    <MetadataFile FileName="EFMUserService5340.xsd" MetadataType="Schema" ID="0356add5-76df-4a19-b132-6d17ba972364" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd33" />
+    <MetadataFile FileName="EFMUserService5341.xsd" MetadataType="Schema" ID="c2e44fd9-d5f8-482f-9a9e-bbebeb742a4e" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EFMUserService5342.xsd" MetadataType="Schema" ID="36f56eac-43cb-4631-867e-59b341d54b55" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd36" />
+    <MetadataFile FileName="EFMUserService5343.xsd" MetadataType="Schema" ID="1172a5ad-3595-4b7c-ae66-87933c1eb459" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd15" />
+    <MetadataFile FileName="EFMUserService5344.xsd" MetadataType="Schema" ID="4d8dc65d-5a51-4c57-92a9-ea30245ca7f4" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd26" />
+    <MetadataFile FileName="EFMUserService5345.xsd" MetadataType="Schema" ID="15d4ea97-bfcf-4c9e-9121-12bf14b0b88b" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd44" />
+    <MetadataFile FileName="EFMUserService5346.xsd" MetadataType="Schema" ID="a2452f9b-bf1b-40a5-a069-9db05f5ab748" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd18" />
+    <MetadataFile FileName="EFMUserService5347.xsd" MetadataType="Schema" ID="1cb919fa-b813-4cf1-8f37-a58d810d8748" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd29" />
+    <MetadataFile FileName="EFMUserService5348.xsd" MetadataType="Schema" ID="14b75ae2-0eeb-455d-8d6b-de4d45cca7e5" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd43" />
+    <MetadataFile FileName="EFMUserService5349.xsd" MetadataType="Schema" ID="218ac6be-c7ff-481e-9123-c3eeaa992925" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd38" />
+    <MetadataFile FileName="EFMUserService5350.xsd" MetadataType="Schema" ID="80e873d5-2a12-4ea8-9121-c45a781e71bf" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd6" />
+    <MetadataFile FileName="EFMUserService5351.xsd" MetadataType="Schema" ID="a4c467e0-c7c2-4dca-b55e-1d0beb1bd2df" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd46" />
+    <MetadataFile FileName="EFMUserService5352.xsd" MetadataType="Schema" ID="98881dfc-4ca5-464c-9a2c-aabb5de35c93" SourceId="1" SourceUrl="https://certify.texfile.com/EFM/EFMUserService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

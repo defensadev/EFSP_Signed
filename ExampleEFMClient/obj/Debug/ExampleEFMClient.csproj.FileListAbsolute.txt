@@ -1,0 +1,8 @@
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\obj\Debug\ExampleEFMClient.csproj.AssemblyReference.cache
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\obj\Debug\ExampleEFMClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\obj\Debug\ExampleEFMClient.csproj.CoreCompileInputs.cache
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\bin\Debug\ExampleEFMClient.exe.config
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\bin\Debug\ExampleEFMClient.exe
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\bin\Debug\ExampleEFMClient.pdb
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\obj\Debug\ExampleEFMClient.exe
+C:\Users\willi\projects\EFSP_signed\ExampleEFMClient\obj\Debug\ExampleEFMClient.pdb

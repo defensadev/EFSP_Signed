@@ -1,0 +1,3 @@
+This sample .NET/WCF solution demonstrates how to sign the SOAP header of your messages.  In particular, see the program.cs file where you provide the path to your pfx file, and a userid/password of a user that exists in the EFM.  Of course, you may elect to get your certificate from the machine’s certificate store instead of a file.
+
+Also, you must edit the app.config and set the endpoint to the appropriate OFS site.

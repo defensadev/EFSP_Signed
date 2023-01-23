@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6F39E2F-D178-4C8F-9AFA-6F70CB058F1A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExampleEFMClient</RootNamespace>
+    <AssemblyName>ExampleEFMClient</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ExampleEFMClient.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EFMClient.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\EFM\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EfmUserService1.wsdl" />
+    <None Include="Service References\EFM\EFMUserService53.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService531.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5310.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5311.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5312.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5313.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5314.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5315.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5316.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5317.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5318.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5319.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService532.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5320.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5321.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5322.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5323.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5324.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5325.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5326.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5327.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5328.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5329.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService533.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5330.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5331.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5332.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5333.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5334.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5335.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5336.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5337.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5338.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5339.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService534.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5340.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5341.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5342.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5343.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5344.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5345.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5346.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5347.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5348.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5349.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService535.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5350.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5351.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService5352.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService536.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService537.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService538.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\EFMUserService539.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.AuthenticateResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.ChangePasswordResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.GetUserResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.PasswordQuestionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.ResetPasswordResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EFM\ExampleEFMClient.EFM.UpdateUserResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\EFM\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EFM\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EFM\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EFM\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EFM\EFMUserService1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
